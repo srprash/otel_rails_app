@@ -41,3 +41,14 @@ group :development, :test do
 end
 
 
+
+gem "faraday", "~> 2.12"
+gem "aws-sdk-s3", "~> 1.182"
+gem "opentelemetry-sdk", "~> 1.8"
+gem "opentelemetry-instrumentation-rails", "~> 0.36.0"
+gem "opentelemetry-instrumentation-faraday", "~> 0.26.0"
+gem "opentelemetry-instrumentation-active_record", "~> 0.9.0"
+gem "opentelemetry-instrumentation-aws_sdk", "~> 0.8.0"
+gem "opentelemetry-exporter-otlp", "~> 0.30.0"
+
+gem "opentelemetry-instrumentation-all", "~> 0.74.0"

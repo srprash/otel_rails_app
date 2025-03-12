@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  get 'http_call', to: 'api#http_call'
+  # get 'db_call', to: 'api#db_call'
+  get 's3_call', to: 'api#s3_call'
 end
