@@ -52,6 +52,6 @@ gem "opentelemetry-exporter-otlp", "~> 0.30.0"
 
 gem "opentelemetry-instrumentation-all", "~> 0.74.0"
 
-gem "aws-sdk-s3", "~> 1.182"
+gem "aws-sdk-s3", "~> 1.183"
 
 gem "aws-sdk-sns", "~> 1.97"
