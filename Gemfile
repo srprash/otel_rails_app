@@ -42,7 +42,7 @@ end
 
 
 
-gem "faraday", "~> 2.12"
+gem "faraday", "~> 2.13"
 gem "opentelemetry-sdk", "~> 1.8"
 gem "opentelemetry-instrumentation-rails", "~> 0.36.0"
 gem "opentelemetry-instrumentation-faraday", "~> 0.26.0"
