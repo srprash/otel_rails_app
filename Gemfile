@@ -58,4 +58,4 @@ gem "webrick", "~> 1.9"
 
 gem "pg", "~> 1.5"
 
-gem "opentelemetry-instrumentation-all", "~> 0.74.0"
+gem "opentelemetry-instrumentation-all", "~> 0.75.1"
