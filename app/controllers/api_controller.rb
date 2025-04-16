@@ -1,8 +1,8 @@
 class ApiController < ApplicationController
     require 'faraday'
-    require 'aws-sdk-s3'
+    # require 'aws-sdk'
 
-    S3_CLIENT = Aws::S3::Client.new(region: 'us-east-1')
+    S3_CLIENT = Aws::S3::Client.new(region: 'us-west-1')
   
     def say_hello
       name = params[:name]

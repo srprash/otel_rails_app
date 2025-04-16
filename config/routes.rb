@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   get 's3_listBucket_call', to: 'api#s3_listBucket_call'
   get 's3/describe/:bucket_name', to: 'api#describe_s3_bucket'
   get 'sns/publish', to: 'api#sns_publish'
+  post 'users', to: 'users#create'
 end
