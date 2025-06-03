@@ -52,7 +52,7 @@ gem "opentelemetry-exporter-otlp", "~> 0.30.0"
 
 
 
-gem "aws-sdk", "~> 3.0"
+gem "aws-sdk", "~> 3.3"
 
 gem "webrick", "~> 1.9"
 
